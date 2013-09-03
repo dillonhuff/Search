@@ -1,0 +1,15 @@
+[info] Running search.MainObj 
+[debug] Starting sandboxed run...
+[debug] Waiting for threads to exit or System.exit to be called.
+[debug]   Classpath:
+[debug] 	C:\Users\Dillon\Search\target\scala-2.10\classes
+[debug] 	C:\Users\Dillon\.sbt\boot\scala-2.10.2\lib\scala-library.jar
+[debug] 	C:\Users\Dillon\.ivy2\cache\com.typesafe\scalalogging-log4j_2.10\jars\scalalogging-log4j_2.10-1.0.1.jar
+[debug] 	C:\Users\Dillon\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.10.0.jar
+[debug] 	C:\Users\Dillon\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.0-beta3.jar
+[debug] 	C:\Users\Dillon\.ivy2\cache\org.apache.logging.log4j\log4j-core\jars\log4j-core-2.0-beta3.jar
+[debug] Waiting for thread run-main to exit
+[debug] 	Thread run-main exited.
+[debug] Interrupting remaining threads (should be all daemons).
+[debug] Sandboxed run complete..
+[debug] Exited with code 0
