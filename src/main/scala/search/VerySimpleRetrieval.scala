@@ -8,6 +8,7 @@ import scala.io.Source
 //Searches a directory of files
 //and prints the first part of any 
 //file that contains all the terms
+//given by the user
 object VerySimpleRetrieval {
 	
 	def main(args: Array[String]) = {
