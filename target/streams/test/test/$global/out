@@ -1,4 +1,4 @@
 [debug] Running Test search.InvertedIndexTests : annotation(false, org.junit.Test) with arguments 
-[info] Passed: : Total 2, Failed 0, Errors 0, Passed 2, Skipped 0
+[info] Passed: : Total 4, Failed 0, Errors 0, Passed 4, Skipped 0
 [debug] Passed tests:
 [debug] 	search.InvertedIndexTests

@@ -18,6 +18,17 @@ class InvertedIndex() {
 	def docsContaining(token: Token): Set[Document] = {
 		return postings.getOrElse(token, Set.empty[Document])
 	}
+	
+	def docsContainingAll(tokens: Vector[Token]): Set[Document] = {
+		if (tokens.size < 1) {
+			return Set.empty[Document]
+		}
+		var docsWithAll = docsContaining(tokens(0))
+		for (token <- tokens) {
+			docsWithAll = docsWithAll.intersect(docsContaining(token))
+		}
+		return docsWithAll
+	}
 }
 
 class Document(txt: String) {
