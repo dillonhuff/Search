@@ -1,0 +1,1 @@
+[error] Test search.InvertedIndexTests.indexOneDoc failed: expected:<Set(search.Document@e6b38854)> but was:<Set()>
