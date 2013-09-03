@@ -50,5 +50,4 @@ class InvertedIndexTests {
 		assertEquals(Set[Document](doc3),
 			index.docsContainingAll(Vector[Token](new Token("the"), new Token("love"))))
 	}
-
 }

@@ -1,4 +1,4 @@
-[info] Running search.MainObj 
+[info] Running search.VerySimpleRetrieval C:\Users\Dillon\workspace\Search\BrownArticles dog
 [debug] Starting sandboxed run...
 [debug] Waiting for threads to exit or System.exit to be called.
 [debug]   Classpath:
