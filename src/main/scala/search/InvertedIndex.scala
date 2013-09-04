@@ -11,7 +11,7 @@ class InvertedIndex() {
 		val uniqueToks = doc.text.toLowerCase().split("\\s").distinct
 		for (tok <- uniqueToks) {
 			val token = new Token(tok)
-			postings += token -> (postings.getOrElse(token, Set.empty[Document]) + doc) 
+			postings += token -> (postings.getOrElse(token, Set.empty[Document]) + doc)
 		}
 	}
 	

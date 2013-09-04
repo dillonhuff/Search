@@ -1,0 +1,1 @@
+[error] Test search.FeatureVectorTests.addEmptyVectors failed: expected:<search.FeatureVector@1e6558f> but was:<search.FeatureVector@fb4f72>

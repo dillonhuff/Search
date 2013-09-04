@@ -1,4 +1,6 @@
+[debug] Running Test search.FeatureVectorTests : annotation(false, org.junit.Test) with arguments 
 [debug] Running Test search.InvertedIndexTests : annotation(false, org.junit.Test) with arguments 
-[info] Passed: : Total 4, Failed 0, Errors 0, Passed 4, Skipped 0
+[info] Passed: : Total 7, Failed 0, Errors 0, Passed 7, Skipped 0
 [debug] Passed tests:
 [debug] 	search.InvertedIndexTests
+[debug] 	search.FeatureVectorTests
