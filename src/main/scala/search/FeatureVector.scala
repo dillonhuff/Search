@@ -9,7 +9,11 @@ class FeatureVector(namesToVals: Map[String, Double]) {
 	}
 	
 	def add(other: FeatureVector): FeatureVector = {
-		return new FeatureVector(Map.empty[String, Double])
+		var sumFeatures = this.namesToValues
+		for ((name, value) <- other.namesToValues) {
+			sumFeatures += name -> (sumFeatures.getOrElse(name, 0.0) + value)
+		}
+		return new FeatureVector(sumFeatures)
 	}
 	
 	override

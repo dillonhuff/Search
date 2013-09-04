@@ -27,7 +27,26 @@ class FeatureVectorTests {
 	
 	@Test
 	def addFirstNonEmpty() = {
-		val v1 = new FeatureVector(Map[String, Double]("to" -> 23.4, "the" -> 52.0)
+		val v1 = new FeatureVector(Map[String, Double]("to" -> 23.4, "the" -> 52.0))
 		val v2 = new FeatureVector(Map.empty[String, Double])
+		val v3 = v1.add(v2)
+		assertEquals(v1, v3)
+	}
+	
+	@Test
+	def addSecondNonEmpty() = {
+		val v1 = new FeatureVector(Map.empty[String, Double])
+		val v2 = new FeatureVector(Map[String, Double]("not" -> 3, "is" -> 56.3))
+		val v3 = v1.add(v2)
+		assertEquals(v2, v3)
+	}
+	
+	@Test
+	def addBothNonEmpty() = {
+		val v1 = new FeatureVector(Map[String, Double]("h" -> 2, "t" -> -23.4))
+		val v2 = new FeatureVector(Map[String, Double]("e" -> 3, "t" -> 3.0))
+		val correct = new FeatureVector(Map[String, Double]("h" -> 2, "e" -> 3, "t" -> -20.4))
+		val v3 = v1.add(v2)
+		assertEquals(correct, v3)
 	}
 }
