@@ -49,4 +49,20 @@ class FeatureVectorTests {
 		val v3 = v1.add(v2)
 		assertEquals(correct, v3)
 	}
+	
+	@Test
+	def multByScalar() = {
+		val v = new FeatureVector(Map[String, Double]("t" -> 34, "h" -> 0.3, "j" -> 5.6))
+		val correct = new FeatureVector(Map[String, Double]("t" -> 68, "h" -> 0.6, "j" -> 11.2))
+		val res = v.scalarMult(2.0)
+	}
+	
+	@Test
+	def subtract() = {
+		val v1 = new FeatureVector(Map[String, Double]("b" -> 3, "c" -> 6, "d" -> 54))
+		val v2 = new FeatureVector(Map[String, Double]("b" -> 2, "c" -> -2.5))
+		val diff = v1.sub(v2)
+		val correct = new FeatureVector(Map[String, Double]("b" -> 1, "c" -> 8.5, "d" -> 54))
+		assertEquals(correct, diff)
+	}
 }

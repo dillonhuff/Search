@@ -16,6 +16,18 @@ class FeatureVector(namesToVals: Map[String, Double]) {
 		return new FeatureVector(sumFeatures)
 	}
 	
+	def sub(other: FeatureVector): FeatureVector = {
+		var diffFeatures = this.namesToValues
+		for ((name, value) <- other.namesToValues) {
+			diffFeatures += name -> (diffFeatures.getOrElse(name, 0.0) - value)
+		}
+		return new FeatureVector(diffFeatures)
+	}
+	
+	def scalarMult(k: Double): FeatureVector = {
+		return new FeatureVector(this.namesToValues.mapValues(_ * k))
+	}
+	
 	override
 	def equals(obj: Any): Boolean = {
 		if (!obj.isInstanceOf[FeatureVector]) {

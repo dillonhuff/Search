@@ -1,1 +1,1 @@
-[error] Test search.FeatureVectorTests.addSecondNonEmpty failed: expected:<search.FeatureVector@cc3f9a99> but was:<search.FeatureVector@2b99ea6d>
+[error] Test search.FeatureVectorTests.subtract failed: expected:<search.FeatureVector@b0528cac> but was:<search.FeatureVector@ea41c565>
