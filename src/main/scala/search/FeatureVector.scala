@@ -37,6 +37,11 @@ class FeatureVector(namesToVals: Map[String, Double]) {
 	}
 	
 	override
+	def toString(): String = {
+		return namesToValues.toString
+	}
+	
+	override
 	def equals(obj: Any): Boolean = {
 		if (!obj.isInstanceOf[FeatureVector]) {
 			return false
