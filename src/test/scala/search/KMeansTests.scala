@@ -18,4 +18,14 @@ class KMeansTests {
 			val res = KMeans.populateClusters(centroids, dataset)
 			assertEquals(correct, res)
 		}
+		
+		@Test
+		def computeCentroid() = {
+			val v1 = new FeatureVector(Map[String, Double]("t" -> -2))
+			val v2 = new FeatureVector(Map[String, Double]("t" -> -4))
+			val cluster = Vector(v1, v2)
+			val correct = new FeatureVector(Map[String, Double]("t" -> -3))
+			val res = KMeans.computeCentroid(cluster)
+			assertEquals(correct, res)
+		}
 }
