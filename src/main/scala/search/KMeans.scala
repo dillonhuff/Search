@@ -2,7 +2,19 @@ package search
 
 object KMeans {
 
-	def randomInitialCentroids(vectors: Vector[FeatureVector], numCentroids: Int): 
+	def cluster(vectors: Vector[FeatureVector], numCentroids: Int):
+		Set[Vector[FeatureVector]] = {
+		var oldCentroids = Vector.empty[FeatureVector]
+		var newCentroids = randomInitialCentroids(vectors, numCentroids)
+		do {
+			oldCentroids = newCentroids
+			val clusters = populateClusters(oldCentroids, vectors)
+			newCentroids = clusters.mapValues(computeCentroid).values.toVector
+		} while (newCentroids != oldCentroids)
+		return populateClusters(newCentroids, vectors).values.toSet
+	}
+
+	def randomInitialCentroids(vectors: Vector[FeatureVector], numCentroids: Int):
 		Vector[FeatureVector] = {
 		return scala.util.Random.shuffle(vectors).take(numCentroids)
 	}
@@ -15,7 +27,7 @@ object KMeans {
 		return newCentroid.scalarMult(1.0/cluster.size)
 	}
 	
-	def populateClusters(centroids: Vector[FeatureVector], dataset: Vector[FeatureVector]): 
+	def populateClusters(centroids: Vector[FeatureVector], dataset: Vector[FeatureVector]):
 		Map[FeatureVector, Vector[FeatureVector]] = {
 		var clusters = Map.empty[FeatureVector, Vector[FeatureVector]]
 		for (vec <- dataset) {
