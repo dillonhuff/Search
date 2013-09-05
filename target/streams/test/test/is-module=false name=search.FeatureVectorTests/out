@@ -1,1 +1,1 @@
-[error] Test search.FeatureVectorTests.subtract failed: expected:<search.FeatureVector@b0528cac> but was:<search.FeatureVector@ea41c565>
+[error] Test search.FeatureVectorTests.vectorDistanceFromItselfIsZero failed: expected:<0.0> but was:<-1.0>

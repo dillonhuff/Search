@@ -65,4 +65,18 @@ class FeatureVectorTests {
 		val correct = new FeatureVector(Map[String, Double]("b" -> 1, "c" -> 8.5, "d" -> 54))
 		assertEquals(correct, diff)
 	}
+	
+	@Test
+	def vectorDistanceFromItselfIsZero() = {
+		val v1 = new FeatureVector(Map[String, Double]("is" -> 1.2, "no" -> 3))
+		assertEquals(0.0, v1.dist(v1), 0.0)
+	}
+	
+	@Test
+	def vectorDistanceFromEachOther() = {
+		val v1 = new FeatureVector(Map[String, Double]("d" -> 2.0, "r" -> 1.0))
+		val v2 = new FeatureVector(Map[String, Double]("d" -> 1.0))
+		val correct = Math.sqrt(1.0 + 1.0)
+		assertEquals(correct, v1.dist(v2), Math.pow(10, -8))
+	}
 }

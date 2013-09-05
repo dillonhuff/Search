@@ -28,6 +28,14 @@ class FeatureVector(namesToVals: Map[String, Double]) {
 		return new FeatureVector(this.namesToValues.mapValues(_ * k))
 	}
 	
+	def magnitude(): Double = {
+		return Math.sqrt(namesToValues.mapValues(Math.pow(_, 2.0)).foldLeft(0.0)(_+_._2))
+	}
+	
+	def dist(other: FeatureVector): Double = {
+		return this.sub(other).magnitude
+	}
+	
 	override
 	def equals(obj: Any): Boolean = {
 		if (!obj.isInstanceOf[FeatureVector]) {
