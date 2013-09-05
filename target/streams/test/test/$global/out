@@ -1,6 +1,6 @@
+[debug] Running Test search.InvertedIndexTests : annotation(false, org.junit.Test) with arguments 
 [debug] Running Test search.FeatureVectorTests : annotation(false, org.junit.Test) with arguments 
 [debug] Running Test search.KMeansTests : annotation(false, org.junit.Test) with arguments 
-[debug] Running Test search.InvertedIndexTests : annotation(false, org.junit.Test) with arguments 
 [info] Passed: : Total 16, Failed 0, Errors 0, Passed 16, Skipped 0
 [debug] Passed tests:
 [debug] 	search.InvertedIndexTests

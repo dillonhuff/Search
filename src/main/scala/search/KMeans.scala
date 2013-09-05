@@ -2,6 +2,11 @@ package search
 
 object KMeans {
 
+	def randomInitialCentroids(vectors: Vector[FeatureVector], numCentroids: Int): 
+		Vector[FeatureVector] = {
+		return scala.util.Random.shuffle(vectors).take(numCentroids)
+	}
+
 	def computeCentroid(cluster: Vector[FeatureVector]): FeatureVector = {
 		var newCentroid = new FeatureVector(Map.empty[String, Double])
 		for (vec <- cluster) {
