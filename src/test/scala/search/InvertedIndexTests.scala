@@ -37,7 +37,7 @@ class InvertedIndexTests {
 	}
 	
 	@Test
-	def docsContainingBothWords() = {
+	def docsContainingBothTokens() = {
 		val doc1 = new Document("I am secretly building a satellite based mind control device")
 		val doc2 = new Document("The officer was arresting a peanut butter and jelly sandwich")
 		val doc3 = new Document("I just couldn't ever love the bomb.")
@@ -52,5 +52,19 @@ class InvertedIndexTests {
 			index.docsContainingAll(Vector[Token](new Token("the"), new Token("officer"))))
 		assertEquals(Set[Document](doc3),
 			index.docsContainingAll(Vector[Token](new Token("the"), new Token("love"))))
+	}
+	
+	@Test
+	def docsContainingAnyTokens() = {
+		val doc1 = new Document("Killer whale massacre")
+		val doc2 = new Document("Not a crab")
+		val doc3 = new Document("A very secret man")
+		val index = new InvertedIndex()
+		val tokenizer = new WhitespaceTokenizer()
+		index.add(doc1, tokenizer.tokenize(doc1).toSet)
+		index.add(doc2, tokenizer.tokenize(doc2).toSet)
+		index.add(doc3, tokenizer.tokenize(doc3).toSet)
+		assertEquals(Set(doc2, doc3),
+			index.docsContainingAny(Vector(new Token("crab"), new Token("man"))))
 	}
 }

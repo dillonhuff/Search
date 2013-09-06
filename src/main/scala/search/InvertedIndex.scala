@@ -27,6 +27,13 @@ class InvertedIndex() {
 		}
 		return docsWithAll
 	}
+	
+	def docsContainingAny(tokens: Vector[Token]): Set[Document] = {
+		if (tokens.size < 1) {
+			return Set.empty[Document]
+		}
+		return tokens.flatMap(docsContaining).toSet
+	}
 }
 
 class Document(txt: String) {
