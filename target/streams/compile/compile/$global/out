@@ -16,7 +16,7 @@
 [debug] All initially invalidated sources: Set(C:\Users\Dillon\Search\src\main\scala\search\KMeans.scala, C:\Users\Dillon\Search\src\main\scala\search\VerySimpleRetrieval.scala, C:\Users\Dillon\Search\src\main\scala\search\MainObj.scala, C:\Users\Dillon\Search\src\main\scala\search\FeatureVector.scala, C:\Users\Dillon\Search\src\main\scala\search\ClusteredDirSearch.scala, C:\Users\Dillon\Search\src\main\scala\search\InvertedIndex.scala)
 [debug] Recompiling all 6 sources: invalidated sources (6) exceeded 50.0% of all sources
 [info] Compiling 6 Scala sources to C:\Users\Dillon\Search\target\scala-2.10\classes...
-[debug] Running cached compiler 4340c0, interfacing (CompilerInterface) with Scala compiler version 2.10.2
+[debug] Running cached compiler 1d16300, interfacing (CompilerInterface) with Scala compiler version 2.10.2
 [debug] Calling Scala compiler with arguments  (CompilerInterface):
 [debug] 	-deprecation
 [debug] 	-d
