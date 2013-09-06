@@ -33,9 +33,11 @@ object VerySimpleRetrieval {
 	}
 	
 	def indexDocsInDir(dir: File): InvertedIndex = {
+		val tokenizer = new WhitespaceTokenizer()
 		val index = new InvertedIndex()
 		for (filePath <- dir.list()) {
-			index.add(new Document(Source.fromFile(dir.getAbsolutePath() + "/" + filePath).mkString))
+			val doc = new Document(Source.fromFile(dir.getAbsolutePath() + "/" + filePath).mkString)
+			index.add(doc, tokenizer.tokenize(doc).toSet[Token])
 		}
 		return index
 	}

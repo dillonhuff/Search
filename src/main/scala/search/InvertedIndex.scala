@@ -7,10 +7,8 @@ class InvertedIndex() {
 
 	private var postings = Map.empty[Token, Set[Document]]
 
-	def add(doc: Document) = {
-		val uniqueToks = doc.text.toLowerCase().split("\\s").distinct
-		for (tok <- uniqueToks) {
-			val token = new Token(tok)
+	def add(doc: Document, tokens: Set[Token]) = {
+		for (token <- tokens) {
 			postings += token -> (postings.getOrElse(token, Set.empty[Document]) + doc)
 		}
 	}

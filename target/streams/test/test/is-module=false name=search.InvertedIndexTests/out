@@ -1,1 +1,2 @@
-[error] Test search.InvertedIndexTests.docsContainingBothWords failed: expected:<Set(search.Document@85888ea8)> but was:<Set()>
+[error] Test search.InvertedIndexTests.docsContainingBothWords failed: expected:<Set(search.Document@fd2db950)> but was:<Set()>
+[error] Test search.InvertedIndexTests.indexTwoDocs failed: expected:<Set(search.Document@e6686837, search.Document@3d29c4bd)> but was:<Set(search.Document@3d29c4bd)>
