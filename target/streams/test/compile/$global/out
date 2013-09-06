@@ -2,19 +2,19 @@
 [debug] Initial source changes: 
 [debug] 	removed:Set()
 [debug] 	added: Set()
-[debug] 	modified: Set(C:\Users\Dillon\Search\src\test\scala\search\InvertedIndexTests.scala)
-[debug] Removed products: Set()
+[debug] 	modified: Set(C:\Users\Dillon\Search\src\test\scala\search\BagOfWordsConverterTests.scala)
+[debug] Removed products: Set(C:\Users\Dillon\Search\target\scala-2.10\test-classes\search\BagOfWordsConverterTests.class)
 [debug] Modified external sources: Set()
 [debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated sources: Set(C:\Users\Dillon\Search\src\test\scala\search\InvertedIndexTests.scala)
+[debug] Initial directly invalidated sources: Set(C:\Users\Dillon\Search\src\test\scala\search\BagOfWordsConverterTests.scala)
 [debug] 
 [debug] Sources indirectly invalidated by:
-[debug] 	product: Set()
+[debug] 	product: Set(C:\Users\Dillon\Search\src\test\scala\search\BagOfWordsConverterTests.scala)
 [debug] 	binary dep: Set()
 [debug] 	external source: Set()
-[debug] All initially invalidated sources: Set(C:\Users\Dillon\Search\src\test\scala\search\InvertedIndexTests.scala)
+[debug] All initially invalidated sources: Set(C:\Users\Dillon\Search\src\test\scala\search\BagOfWordsConverterTests.scala)
 [info] Compiling 1 Scala source to C:\Users\Dillon\Search\target\scala-2.10\test-classes...
-[debug] Running cached compiler 1bcee8a, interfacing (CompilerInterface) with Scala compiler version 2.10.2
+[debug] Running cached compiler 59441d, interfacing (CompilerInterface) with Scala compiler version 2.10.2
 [debug] Calling Scala compiler with arguments  (CompilerInterface):
 [debug] 	-deprecation
 [debug] 	-d
@@ -23,10 +23,10 @@
 [debug] 	C:\Program Files (x86)\Java\jre7\lib\resources.jar;C:\Program Files (x86)\Java\jre7\lib\rt.jar;C:\Program Files (x86)\Java\jre7\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre7\lib\jsse.jar;C:\Program Files (x86)\Java\jre7\lib\jce.jar;C:\Program Files (x86)\Java\jre7\lib\charsets.jar;C:\Program Files (x86)\Java\jre7\lib\jfr.jar;C:\Program Files (x86)\Java\jre7\classes;C:\Users\Dillon\.sbt\boot\scala-2.10.2\lib\scala-library.jar
 [debug] 	-classpath
 [debug] 	C:\Users\Dillon\Search\target\scala-2.10\test-classes;C:\Users\Dillon\Search\target\scala-2.10\classes;C:\Users\Dillon\.ivy2\cache\com.typesafe\scalalogging-log4j_2.10\jars\scalalogging-log4j_2.10-1.0.1.jar;C:\Users\Dillon\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.10.0.jar;C:\Users\Dillon\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.0-beta3.jar;C:\Users\Dillon\.ivy2\cache\org.apache.logging.log4j\log4j-core\jars\log4j-core-2.0-beta3.jar;C:\Users\Dillon\.ivy2\cache\junit\junit\jars\junit-4.10.jar;C:\Users\Dillon\.ivy2\cache\org.hamcrest\hamcrest-core\jars\hamcrest-core-1.1.jar;C:\Users\Dillon\.ivy2\cache\com.novocode\junit-interface\jars\junit-interface-0.8.jar;C:\Users\Dillon\.ivy2\cache\org.scala-tools.testing\test-interface\jars\test-interface-0.5.jar
-[debug] Scala compilation took 2.522791282 s
+[debug] Scala compilation took 2.589224517 s
 [debug] Step 2 changed sources and immdediate dependencies:
-[debug] 	Set()
+[debug] 	Set(C:\Users\Dillon\Search\src\test\scala\search\BagOfWordsConverterTests.scala)
 [debug] Non-trivial strongly connected components: 
 [debug] 	
 [debug] Step 2 invalidated sources:
-[debug] 	Set()
+[debug] 	Set(C:\Users\Dillon\Search\src\test\scala\search\BagOfWordsConverterTests.scala)

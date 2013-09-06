@@ -20,4 +20,9 @@ class Token(s: String) {
 	def hashCode(): Int = {
 		return str.hashCode
 	}
+	
+	override
+	def toString(): String = {
+		return str
+	}
 }
