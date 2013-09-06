@@ -1,8 +1,15 @@
 package search
 
+import java.io.File
+
 import scala.io.Source
 
+//Almost the same as VerySimpleRetrieval,
+//but results are grouped in to a fixed 
+//number of clusters using K-Means
 object ClusteredDirSearch {
+	
+	val numClusters = 4
 	
 	def main(args: Array[String]): Unit = {
 		if (args.length < 2) {
@@ -19,7 +26,7 @@ object ClusteredDirSearch {
 		if (docsWithAllTerms.size < 1) {
 			println("NO DOCUMENTS WITH ALL SEARCH TERMS")
 		} else {
-			
+			val docClusters = KMeans.cluster(docsWithAllTerms.toVector, numClusters)
 		}
 	}
 	

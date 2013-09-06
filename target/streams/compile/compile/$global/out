@@ -1,15 +1,35 @@
+[debug] Invalidating C:\Program Files (x86)\Java\jre7\lib\rt.jar: stamp changed from lastModified(1367162209492) to lastModified(1378491757091)
 [debug] 
 [debug] Initial source changes: 
 [debug] 	removed:Set()
-[debug] 	added: Set()
+[debug] 	added: Set(C:\Users\Dillon\Search\src\main\scala\search\ClusteredDirSearch.scala)
 [debug] 	modified: Set()
-[debug] Removed products: Set()
+[debug] Removed products: Set(C:\Users\Dillon\Search\target\scala-2.10\classes\search\FeatureVector$$anonfun$sub$2$$anonfun$apply$2.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\Token.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\VerySimpleRetrieval$.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\KMeans$$anonfun$populateClusters$1.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\FeatureVector$$anonfun$magnitude$1.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\FeatureVector$$anonfun$sub$2.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\VerySimpleRetrieval$$anonfun$main$1.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\FeatureVector$$anonfun$scalarMult$1.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\KMeans$$anonfun$1.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\InvertedIndex$$anonfun$docsContainingAll$1.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\Document.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\FeatureVector$$anonfun$add$2$$anonfun$apply$1.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\KMeans$$anonfun$populateClusters$1$$anonfun$apply$1.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\VerySimpleRetrieval$$anonfun$main$2.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\InvertedIndex$$anonfun$docsContaining$1.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\KMeans$$anonfun$cluster$1.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\InvertedIndex$$anonfun$add$1.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\FeatureVector$$anonfun$add$1.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\KMeans.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\MainObj$.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\InvertedIndex.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\MainObj.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\FeatureVector$$anonfun$sub$1.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\FeatureVector$$anonfun$magnitude$2.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\FeatureVector$$anonfun$add$2.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\VerySimpleRetrieval.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\FeatureVector$$anonfun$get$1.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\FeatureVector.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\KMeans$$anonfun$computeCentroid$1.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\KMeans$.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\VerySimpleRetrieval$$anonfun$indexDocsInDir$1.class, C:\Users\Dillon\Search\target\scala-2.10\classes\search\InvertedIndex$$anonfun$add$1$$anonfun$apply$1.class)
 [debug] Modified external sources: Set()
-[debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated sources: Set()
+[debug] Modified binary dependencies: Set(C:\Program Files (x86)\Java\jre7\lib\rt.jar)
+[debug] Initial directly invalidated sources: Set(C:\Users\Dillon\Search\src\main\scala\search\ClusteredDirSearch.scala)
 [debug] 
 [debug] Sources indirectly invalidated by:
-[debug] 	product: Set()
-[debug] 	binary dep: Set()
+[debug] 	product: Set(C:\Users\Dillon\Search\src\main\scala\search\KMeans.scala, C:\Users\Dillon\Search\src\main\scala\search\VerySimpleRetrieval.scala, C:\Users\Dillon\Search\src\main\scala\search\MainObj.scala, C:\Users\Dillon\Search\src\main\scala\search\FeatureVector.scala, C:\Users\Dillon\Search\src\main\scala\search\InvertedIndex.scala)
+[debug] 	binary dep: Set(C:\Users\Dillon\Search\src\main\scala\search\KMeans.scala, C:\Users\Dillon\Search\src\main\scala\search\VerySimpleRetrieval.scala, C:\Users\Dillon\Search\src\main\scala\search\MainObj.scala, C:\Users\Dillon\Search\src\main\scala\search\FeatureVector.scala, C:\Users\Dillon\Search\src\main\scala\search\InvertedIndex.scala)
 [debug] 	external source: Set()
-[debug] All initially invalidated sources: Set()
+[debug] All initially invalidated sources: Set(C:\Users\Dillon\Search\src\main\scala\search\KMeans.scala, C:\Users\Dillon\Search\src\main\scala\search\VerySimpleRetrieval.scala, C:\Users\Dillon\Search\src\main\scala\search\MainObj.scala, C:\Users\Dillon\Search\src\main\scala\search\FeatureVector.scala, C:\Users\Dillon\Search\src\main\scala\search\ClusteredDirSearch.scala, C:\Users\Dillon\Search\src\main\scala\search\InvertedIndex.scala)
+[debug] Recompiling all 6 sources: invalidated sources (6) exceeded 50.0% of all sources
+[info] Compiling 6 Scala sources to C:\Users\Dillon\Search\target\scala-2.10\classes...
+[debug] Running cached compiler 4340c0, interfacing (CompilerInterface) with Scala compiler version 2.10.2
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-deprecation
+[debug] 	-d
+[debug] 	C:\Users\Dillon\Search\target\scala-2.10\classes
+[debug] 	-bootclasspath
+[debug] 	C:\Program Files (x86)\Java\jre7\lib\resources.jar;C:\Program Files (x86)\Java\jre7\lib\rt.jar;C:\Program Files (x86)\Java\jre7\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre7\lib\jsse.jar;C:\Program Files (x86)\Java\jre7\lib\jce.jar;C:\Program Files (x86)\Java\jre7\lib\charsets.jar;C:\Program Files (x86)\Java\jre7\lib\jfr.jar;C:\Program Files (x86)\Java\jre7\classes;C:\Users\Dillon\.sbt\boot\scala-2.10.2\lib\scala-library.jar
+[debug] 	-classpath
+[debug] 	C:\Users\Dillon\Search\target\scala-2.10\classes;C:\Users\Dillon\.ivy2\cache\com.typesafe\scalalogging-log4j_2.10\jars\scalalogging-log4j_2.10-1.0.1.jar;C:\Users\Dillon\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.10.0.jar;C:\Users\Dillon\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.0-beta3.jar;C:\Users\Dillon\.ivy2\cache\org.apache.logging.log4j\log4j-core\jars\log4j-core-2.0-beta3.jar
+[error] C:\Users\Dillon\Search\src\main\scala\search\ClusteredDirSearch.scala:29: type mismatch;
+[error]  found   : Vector[search.Document]
+[error]  required: Vector[search.FeatureVector]
+[error] 			val docClusters = KMeans.cluster(docsWithAllTerms.toVector, numClusters)
+[error] 			                                                  ^
+[error] one error found
+[debug] Compilation failed (CompilerInterface)
+[error] (compile:compile) Compilation failed
