@@ -36,6 +36,10 @@ class FeatureVector(namesToVals: Map[String, Double]) {
 		return this.sub(other).magnitude
 	}
 	
+	def cosSim(other: FeatureVector): Double = {
+		return -1
+	}
+	
 	override
 	def toString(): String = {
 		return namesToValues.toString
