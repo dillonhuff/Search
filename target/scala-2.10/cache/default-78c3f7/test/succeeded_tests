@@ -1,6 +1,6 @@
 #Successful Tests
-#Fri Sep 06 13:54:19 PDT 2013
-search.KMeansTests=1378500859830
-search.FeatureVectorTests=1378500859828
-search.BagOfWordsConverterTests=1378500859825
-search.InvertedIndexTests=1378500859825
+#Sat Sep 07 11:41:47 PDT 2013
+search.KMeansTests=1378579307083
+search.FeatureVectorTests=1378579307069
+search.BagOfWordsConverterTests=1378579307005
+search.InvertedIndexTests=1378579307062

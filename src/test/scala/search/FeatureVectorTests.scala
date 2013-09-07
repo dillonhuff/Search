@@ -79,4 +79,16 @@ class FeatureVectorTests {
 		val correct = Math.sqrt(1.0 + 1.0)
 		assertEquals(correct, v1.dist(v2), Math.pow(10, -8))
 	}
+	
+	@Test
+	def emptyVectorMagnitudeIsZero() = {
+		val v = new FeatureVector(Map.empty[String, Double])
+		assertEquals(0.0, v.magnitude, 0.0)
+	}
+	
+	@Test
+	def oneComponentVectorMag() = {
+		val v = new FeatureVector(Map[String, Double]("d" -> 2.0))
+		assertEquals(2.0, v.magnitude, 0.0)
+	}
 }
