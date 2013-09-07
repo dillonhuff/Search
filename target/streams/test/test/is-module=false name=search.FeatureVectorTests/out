@@ -1,1 +1,1 @@
-[error] Test search.FeatureVectorTests.cosSimToSelfIsZero failed: expected:<1.0> but was:<1.0000000000000002>
+[error] Test search.FeatureVectorTests.cosSimOfDifferentVecs failed: expected:<-6.18> but was:<-0.30236758828738425>

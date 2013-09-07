@@ -99,8 +99,15 @@ class FeatureVectorTests {
 	}
 	
 	@Test
-	def cosSimToSelfIsZero() = {
+	def cosSimToSelfIsOne() = {
 		val v = new FeatureVector(Map[String, Double]("t" -> 2.3, "q" -> 3.4))
 		assertEquals(1.0, v.cosSim(v), Math.pow(10, -8))
+	}
+	
+	@Test
+	def cosSimOfDifferentVecs() = {
+		val v1 = new FeatureVector(Map[String, Double]("v" -> 4.5, "z" -> -2.1))
+		val v2 = new FeatureVector(Map[String, Double]("v" -> -0.3, "w" -> 3.4, "z" -> 2.3))
+		assertEquals(-0.30236758828, v1.cosSim(v2), Math.pow(10, -8))
 	}
 }

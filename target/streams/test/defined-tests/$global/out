@@ -1,2 +1,2 @@
-[debug] Subclass fingerprints: Stream((junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@1664f03), ?)
-[debug] Annotation fingerprints: Stream((org.junit.Test,false,com.novocode.junit.JUnitFingerprint@de5f2c), ?)
+[debug] Subclass fingerprints: Stream((junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@10008e7), ?)
+[debug] Annotation fingerprints: Stream((org.junit.Test,false,com.novocode.junit.JUnitFingerprint@1fef00d), ?)
