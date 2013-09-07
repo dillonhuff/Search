@@ -1,1 +1,1 @@
-[error] Test search.FeatureVectorTests.oneComponentVectorMag failed: expected:<2.0> but was:<0.0>
+[error] Test search.FeatureVectorTests.cosSimToSelfIsZero failed: expected:<1.0> but was:<1.0000000000000002>

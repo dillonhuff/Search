@@ -37,7 +37,16 @@ class FeatureVector(namesToVals: Map[String, Double]) {
 	}
 	
 	def cosSim(other: FeatureVector): Double = {
-		return -1
+		val thisMag = this.magnitude
+		val otherMag = other.magnitude
+		if (thisMag == 0.0 || otherMag == 0.0) {
+			return 0.0
+		}
+		var dotProd = 0.0
+		for ((name, value) <- other.namesToValues) {
+			dotProd += value * this.namesToValues.getOrElse(name, 0.0)
+		}
+		return dotProd / (thisMag * otherMag)
 	}
 	
 	override
