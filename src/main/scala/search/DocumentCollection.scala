@@ -15,11 +15,6 @@ class DocumentCollection(docs: Vector[Document]) {
 	    return docUniqueTokens.foldLeft(Map.empty[Token, Int])(addCounts)
 	}
 
-	def addCounts(tokenDocFrequencies: Map[Token, Int], tokens: Set[Token]): Map[Token, Int] = {
-	    var newTokenDocFreqs = tokenDocFrequencies
-	    for (token <- tokens) {
-	    	newTokenDocFreqs += token -> (newTokenDocFreqs.getOrElse(token, 0) + 1)
-	    }
-	    return newTokenDocFreqs
-	}
+	def addCounts(tokenDocFrequencies: Map[Token, Int], tokens: Set[Token]): Map[Token, Int] = 
+	    tokens.foldLeft(tokenDocFrequencies)((tokenCounts, token) => tokenCounts + (token -> (tokenCounts.getOrElse(token, 0) + 1)))
 }
