@@ -7,59 +7,59 @@
 		revision="0.0.1"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
-		date="20130903133521"/>
+		date="20130908170329"/>
 	<dependencies>
 		<module organisation="org.apache.logging.log4j" name="log4j-core">
-			<revision name="2.0-beta3" status="release" pubdate="20121111082352" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
-				<metadata-artifact status="no" details="" size="9766" time="0" location="C:\Users\Dillon\.ivy2\cache\org.apache.logging.log4j\log4j-core\ivy-2.0-beta3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.0-beta3/log4j-core-2.0-beta3.pom"/>
+			<revision name="2.0-beta3" status="release" pubdate="20121111102352" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<metadata-artifact status="no" details="" size="9677" time="0" location="/u/dh25929/.ivy2/cache/org.apache.logging.log4j/log4j-core/ivy-2.0-beta3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.0-beta3/log4j-core-2.0-beta3.pom"/>
 				<caller organisation="DillonHuff" name="search_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.0-beta3" rev-constraint-default="2.0-beta3" rev-constraint-dynamic="2.0-beta3" callerrev="0.0.1"/>
 				<artifacts>
-					<artifact name="log4j-core" type="jar" ext="jar" status="successful" details="" size="407503" time="1803" location="C:\Users\Dillon\.ivy2\cache\org.apache.logging.log4j\log4j-core\jars\log4j-core-2.0-beta3.jar">
+					<artifact name="log4j-core" type="jar" ext="jar" status="no" details="" size="407503" time="0" location="/u/dh25929/.ivy2/cache/org.apache.logging.log4j/log4j-core/jars/log4j-core-2.0-beta3.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.0-beta3/log4j-core-2.0-beta3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe" name="scalalogging-log4j_2.10">
-			<revision name="1.0.1" status="release" pubdate="20121223144342" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/scalalogging" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+			<revision name="1.0.1" status="release" pubdate="20121223164342" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/scalalogging" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="2749" time="0" location="C:\Users\Dillon\.ivy2\cache\com.typesafe\scalalogging-log4j_2.10\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/scalalogging-log4j_2.10/1.0.1/scalalogging-log4j_2.10-1.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="2716" time="0" location="/u/dh25929/.ivy2/cache/com.typesafe/scalalogging-log4j_2.10/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/scalalogging-log4j_2.10/1.0.1/scalalogging-log4j_2.10-1.0.1.pom"/>
 				<caller organisation="DillonHuff" name="search_2.10" conf="optional, compile, runtime, runtime-internal" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.0.1"/>
 				<artifacts>
-					<artifact name="scalalogging-log4j_2.10" type="jar" ext="jar" status="successful" details="" size="157049" time="1222" location="C:\Users\Dillon\.ivy2\cache\com.typesafe\scalalogging-log4j_2.10\jars\scalalogging-log4j_2.10-1.0.1.jar">
+					<artifact name="scalalogging-log4j_2.10" type="jar" ext="jar" status="no" details="" size="157049" time="0" location="/u/dh25929/.ivy2/cache/com.typesafe/scalalogging-log4j_2.10/jars/scalalogging-log4j_2.10-1.0.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/scalalogging-log4j_2.10/1.0.1/scalalogging-log4j_2.10-1.0.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.logging.log4j" name="log4j-api">
-			<revision name="2.0-beta3" status="release" pubdate="20121111082219" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
-				<metadata-artifact status="no" details="" size="8212" time="0" location="C:\Users\Dillon\.ivy2\cache\org.apache.logging.log4j\log4j-api\ivy-2.0-beta3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0-beta3/log4j-api-2.0-beta3.pom"/>
+			<revision name="2.0-beta3" status="release" pubdate="20121111102219" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
+				<metadata-artifact status="no" details="" size="8135" time="0" location="/u/dh25929/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.0-beta3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0-beta3/log4j-api-2.0-beta3.pom"/>
 				<caller organisation="org.apache.logging.log4j" name="log4j-core" conf="default, compile, runtime, master" rev="2.0-beta3" rev-constraint-default="2.0-beta3" rev-constraint-dynamic="2.0-beta3" callerrev="2.0-beta3"/>
 				<caller organisation="com.typesafe" name="scalalogging-log4j_2.10" conf="default, compile, runtime, master" rev="2.0-beta3" rev-constraint-default="2.0-beta3" rev-constraint-dynamic="2.0-beta3" callerrev="1.0.1"/>
 				<artifacts>
-					<artifact name="log4j-api" type="jar" ext="jar" status="successful" details="" size="83649" time="228" location="C:\Users\Dillon\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.0-beta3.jar">
+					<artifact name="log4j-api" type="jar" ext="jar" status="no" details="" size="83649" time="0" location="/u/dh25929/.ivy2/cache/org.apache.logging.log4j/log4j-api/jars/log4j-api-2.0-beta3.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0-beta3/log4j-api-2.0-beta3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-reflect">
-			<revision name="2.10.0" status="release" pubdate="20121219232932" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
+			<revision name="2.10.0" status="release" pubdate="20121220012932" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
-				<metadata-artifact status="no" details="" size="2584" time="0" location="C:\Users\Dillon\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom"/>
+				<metadata-artifact status="no" details="" size="2552" time="0" location="/u/dh25929/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom"/>
 				<caller organisation="com.typesafe" name="scalalogging-log4j_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="1.0.1"/>
 				<artifacts>
-					<artifact name="scala-reflect" type="jar" ext="jar" status="successful" details="" size="3149351" time="9093" location="C:\Users\Dillon\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.10.0.jar">
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3149351" time="0" location="/u/dh25929/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.0.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-library">
-			<revision name="2.10.2" status="release" pubdate="20130606110543" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
+			<revision name="2.10.2" status="release" pubdate="20130606130543" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
-				<metadata-artifact status="no" details="" size="2517" time="0" location="C:\Users\Dillon\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.pom"/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/u/dh25929/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.pom"/>
 				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.0" callerrev="2.10.0"/>
 				<caller organisation="DillonHuff" name="search_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.0.1"/>
 				<artifacts>
