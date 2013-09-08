@@ -1,12 +1,14 @@
-[0m[[0mdebug[0m] [0mRunning Test search.KMeansTests : annotation(false, org.junit.Test) with arguments [0m
 [0m[[0mdebug[0m] [0mRunning Test search.InvertedIndexTests : annotation(false, org.junit.Test) with arguments [0m
-[0m[[0mdebug[0m] [0mRunning Test search.DocumentCollectionTests : annotation(false, org.junit.Test) with arguments [0m
 [0m[[0mdebug[0m] [0mRunning Test search.FeatureVectorTests : annotation(false, org.junit.Test) with arguments [0m
 [0m[[0mdebug[0m] [0mRunning Test search.BagOfWordsConverterTests : annotation(false, org.junit.Test) with arguments [0m
-[0m[[0minfo[0m] [0mPassed: : Total 30, Failed 0, Errors 0, Passed 30, Skipped 0[0m
+[0m[[0mdebug[0m] [0mRunning Test search.DocumentCollectionTests : annotation(false, org.junit.Test) with arguments [0m
+[0m[[0mdebug[0m] [0mRunning Test search.KMeansTests : annotation(false, org.junit.Test) with arguments [0m
+[0m[[0mdebug[0m] [0mRunning Test search.TFIDFConverterTests : annotation(false, org.junit.Test) with arguments [0m
+[0m[[0minfo[0m] [0mPassed: : Total 31, Failed 0, Errors 0, Passed 31, Skipped 0[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
 [0m[[0mdebug[0m] [0m	search.InvertedIndexTests[0m
 [0m[[0mdebug[0m] [0m	search.KMeansTests[0m
 [0m[[0mdebug[0m] [0m	search.BagOfWordsConverterTests[0m
 [0m[[0mdebug[0m] [0m	search.DocumentCollectionTests[0m
 [0m[[0mdebug[0m] [0m	search.FeatureVectorTests[0m
+[0m[[0mdebug[0m] [0m	search.TFIDFConverterTests[0m
