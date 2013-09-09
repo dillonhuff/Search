@@ -1,6 +1,9 @@
 #Successful Tests
-#Sat Sep 07 11:59:59 PDT 2013
-search.KMeansTests=1378580399934
-search.FeatureVectorTests=1378580399933
-search.BagOfWordsConverterTests=1378580399926
-search.InvertedIndexTests=1378580399927
+#Mon Sep 09 12:53:36 PDT 2013
+search.VectorSpaceRetrievalTests=1378756416994
+search.TFIDFConverterTests=1378756416965
+search.DocumentCollectionTests=1378756416941
+search.KMeansTests=1378756416988
+search.FeatureVectorTests=1378756416978
+search.BagOfWordsConverterTests=1378756416954
+search.InvertedIndexTests=1378756416941
