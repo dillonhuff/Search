@@ -1,11 +1,11 @@
 package search
 
-class FeatureVector(namesToVals: Map[String, Double]) {
+class FeatureVector(namesToVals: Map[Token, Double]) {
 	
 	private val namesToValues = namesToVals
 	
-	def get(featureName: String): Double = {
-		return namesToValues.getOrElse(featureName, 0.0)
+	def get(feature: Token): Double = {
+		return namesToValues.getOrElse(feature, 0.0)
 	}
 	
 	def add(other: FeatureVector): FeatureVector = {

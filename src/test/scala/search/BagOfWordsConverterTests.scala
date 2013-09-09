@@ -9,7 +9,7 @@ class BagOfWordsConverterTests {
 	def emptyDocGivesEmptyVector() = {
 		val doc = new Document("")
 		val converter = new BagOfWordsConverter(new WhitespaceTokenizer())
-		val correct = new FeatureVector(Map.empty[String, Double])
+		val correct = new FeatureVector(Map.empty[Token, Double])
 		assertEquals(correct, converter.convert(doc))
 	}
 	
@@ -17,7 +17,7 @@ class BagOfWordsConverterTests {
 	def oneTokenDocument() = {
 		val doc = new Document("cats")
 		val converter = new BagOfWordsConverter(new WhitespaceTokenizer())
-		val correct = new FeatureVector(Map[String, Double]("cats" -> 1.0))
+		val correct = new FeatureVector(Map[Token, Double](new Token("cats") -> 1.0))
 		assertEquals(correct, converter.convert(doc))
 	}
 	
@@ -26,8 +26,8 @@ class BagOfWordsConverterTests {
 		val doc = new Document("\t\tthIS This is REally the stuff man!\nIS")
 		val converter = new BagOfWordsConverter(new WhitespaceTokenizer())
 		val correct = new FeatureVector(
-			Map("this" -> 2.0, "is" -> 2.0, "really" -> 1.0, 
-			"the" -> 1.0, "stuff" -> 1.0, "man!" -> 1.0))
+			Map(new Token("this") -> 2.0, new Token("is") -> 2.0, new Token("really") -> 1.0, 
+			new Token("the") -> 1.0, new Token("stuff") -> 1.0, new Token("man!") -> 1.0))
 		assertEquals(correct, converter.convert(doc))
 	}
 

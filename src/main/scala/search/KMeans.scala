@@ -20,7 +20,7 @@ object KMeans {
 	}
 
 	def computeCentroid(cluster: Vector[FeatureVector]): FeatureVector = {
-		var newCentroid = new FeatureVector(Map.empty[String, Double])
+		var newCentroid = new FeatureVector(Map.empty[Token, Double])
 		for (vec <- cluster) {
 			newCentroid = newCentroid.add(vec)
 		}
