@@ -1,9 +1,7 @@
 package search
 
-class VectorSpaceRetrieval(docs: DocumentCollection, t: Tokenizer) {
+class VectorSpaceRetrieval(documentCollection: DocumentCollection, tokenizer: Tokenizer) {
 	
-	val documentCollection = docs
-	val tokenizer = t
 	val index = indexCollection()
 	val converter = new TFIDFConverter(
 		tokenizer, documentCollection.documentFrequencies, documentCollection.documents.size)
